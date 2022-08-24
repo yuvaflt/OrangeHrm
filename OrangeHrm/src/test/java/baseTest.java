@@ -22,7 +22,7 @@ public class baseTest {
 
     @AfterMethod
     public void closeBrowser(){
-        driver.close();
+       // driver.close();
         driver.quit();
     }
     public loginPage statLoginPage(){
