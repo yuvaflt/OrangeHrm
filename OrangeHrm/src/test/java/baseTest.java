@@ -23,7 +23,7 @@ public class baseTest {
     @AfterMethod
     public void closeBrowser(){
        // driver.close();
-        driver.quit();
+       // driver.quit();
     }
     public loginPage statLoginPage(){
         return PageFactory.initElements(driver, loginPage.class);
